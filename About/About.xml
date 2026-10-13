@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ModMetaData>
+	<name>Wastepacks are Waste</name>
+	<!-- The name of your mod in the mod list -->
+	<author>tk421storm</author>
+	<packageId>tk421storm.WastepacksAreWaste</packageId>
+	<!-- a unique identifier for your mod. Must contain only a-z and periods, no spaces. -->
+	<supportedVersions>
+		<!-- the version(s) your mod supports -->
+		<li>1.4</li>
+		<li>1.5</li>
+		<li>1.6</li>
+	</supportedVersions>
+	<description>Moves wastepacks into the "Waste" category added by dubs bad hygiene.</description>
+	<modDependencies>
+        <li>
+			<packageId>Dubwise.DubsBadHygiene</packageId>
+			<displayName>Dubs Bad Hygiene</displayName>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/836308268</steamWorkshopUrl>
+		</li>
+	</modDependencies>
+</ModMetaData>
