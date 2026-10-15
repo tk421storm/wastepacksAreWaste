@@ -1,11 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Patch>
-		<Operation Class="PatchOperationReplace">
+	<!-- wastepacks come from Biotech, so only patch when it's loaded -->
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Biotech</li>
+		</mods>
+		<match Class="PatchOperationReplace">
 			<xpath>Defs/ThingDef[defName="Wastepack"]/thingCategories</xpath>
 			<value>
-			<thingCategories>
-                <li>Waste</li>
-            </thingCategories>
-            </value>
+				<thingCategories>
+					<li>Waste</li>
+				</thingCategories>
+			</value>
+		</match>
 	</Operation>
 </Patch>
